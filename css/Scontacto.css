@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --dark-color: #191919;
+    --white-color:#ffffff;
+    --purple-color: rgb(117, 41, 149);
+    --purplelight-color: rgb(169, 83, 206);
+    --aqua-color: aqua;
+    --gray-color: gray;
+    --ligh-color: #F3F3F3;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+h1, h2, h3{
+    font-family: 'Poppins', sans-serif;
+    color: var(--dark-color);
+}
+
+p{
+    color: var(--dark-color);
+    text-align: justify;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+
+}
+
+.fa-solid{
+    padding-right: 0.5rem;
+    
+}
+.logo img{
+    max-width: 270px;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    background-color: var(--purple-color);
+}
+
+.item{
+    padding: 1rem;
+    color: var(--white-color);
+    text-decoration: none;
+    border-bottom: 2px solid var(--purple-color);
+}
+
+.item:hover{
+    color: var(--white-color);
+    border-bottom: 2px solid var(--white-color);
+    box-shadow: 0 0 10px rgb(180, 180, 180);
+    transition: all 0.5s ease;
+}
+
+.tseccion{
+    color: var(--purple-color);
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px var(--gray-color);
+    font-size: 32px;
+}
+
+#contact{
+    padding: 2rem;
+}
+
+.mapa iframe{
+    border-radius: 20%;
+}
+
+footer{
+    background-image: url(../img/fondo.jpg);
+}
+
+.box-footer{
+    display: flex;
+    justify-content: space-between;    
+    padding: 2rem;
+    background-color: rgba(128, 0, 128, 0.356);
+}
+
+.foot{
+    text-align: center;
+}
+
+.foot h3,i{
+    color:var(--white-color);
+    font-weight: 500;
+}
+
+.foot p{
+    color: var(--white-color);
+}
+
+.icono{
+    color: var(--white-color);
+    margin-right: 0.3rem;
+    background-color: #191919;
+    padding: 00.5rem;
+}
